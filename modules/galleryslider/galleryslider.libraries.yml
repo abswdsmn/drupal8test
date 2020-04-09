@@ -1,0 +1,16 @@
+galleryslider:
+  css:
+    theme:
+      css/style.css: {}
+      css/gridslide.css: {}
+      
+  js:          
+    js/jquery-1.10.2.js: { weight: -90 }
+    js/gridSlide.js: { weight: -89 }
+    js/first.js: { weight: -88 }
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery
+    - core/jquery.once
+    
