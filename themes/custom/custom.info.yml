@@ -7,6 +7,9 @@ base theme: freelancer_zymphonies_theme
 # Defines libraries group in which we can add css/js.
 libraries:
   - custom/global-styling
+libraries-extend:
+  freelancer_zymphonies_theme/global-components:
+    - custom/global-styling
 # Regions
 regions:
 
